@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "177478980695",
+    "project_id": "kotha-barta-f18ba",
+    "storage_bucket": "kotha-barta-f18ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177478980695:android:00b68acef0e63819daff12",
+        "android_client_info": {
+          "package_name": "com.kuet.kothabarta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177478980695-0t81k8v2cji75sh67m21lv5c66cd6ev6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrzDt9uw6K3quVeQnkJ0GWB_-tXpmWOMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177478980695-0t81k8v2cji75sh67m21lv5c66cd6ev6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
