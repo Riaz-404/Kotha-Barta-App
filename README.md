@@ -12,8 +12,8 @@
 - Sign In or Sign Up with email or Google
 - Chat with other users
 - Real-time message deliver
-- Update profile
-- Update passwrod
+- Update profile name and image
+- Update password
 - Delete account
 
 
@@ -32,7 +32,7 @@
 
 ## Tech Stack
 
-**Client:** Andriod Studio
+**Client:** Android Studio
 
 **Server:** Firebase
 
