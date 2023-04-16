@@ -1,8 +1,7 @@
+<p align="center">
+<img src="https://raw.githubusercontent.com/Riaz-404/Kotha-Barta-App/master/metaFiles/screenshots/img.png" width="15%" alt="coder" border="0"></p>
 
-![Logo](https://raw.githubusercontent.com/Riaz-404/Kotha-Barta-App/master/metaFiles/screenshots/img.png)
-
-
-# Kotha Barta
+<h1 align="center">Kotha Barta</h1>
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Riaz-404/Kotha-Barta-App?color=f15641)
 
@@ -19,16 +18,15 @@
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_012541.png?raw=true)
+<img src="https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_012541.png?raw=true" width="20%" alt="screenshot">
 
-![App Screenshot](https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_011848.png?raw=true)
+<img src="https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_011848.png?raw=true" width="20%" alt="screenshot">
 
-![App Screenshot](https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_012309.png?raw=true)
+<img src="https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_012309.png?raw=true" width="20%" alt="screenshot">
 
-![App Screenshot](https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_012349.png?raw=true)
+<img src="https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_012349.png?raw=true" width="20%" alt="screenshot">
 
-![App Screenshot](https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_012413.png?raw=true)
-
+<img src="https://github.com/Riaz-404/Kotha-Barta-App/blob/master/metaFiles/screenshots/Screenshot_20230417_012413.png?raw=true" width="20%" alt="screenshot">
 
 ## Tech Stack
 
