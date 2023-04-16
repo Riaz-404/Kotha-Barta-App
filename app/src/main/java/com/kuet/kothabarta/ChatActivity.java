@@ -118,13 +118,11 @@ public class ChatActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(Void unused) {
                         database.getReference().child("Chats").child(receiverRoom).push().setValue(model);
-                        User user = new User();
-                        user.setLastMessage(message);
-                        Map<String, Object> lastMessage = user.toMap();
-                        database.getReference().child("Users").child(senderId).updateChildren(lastMessage, new DatabaseReference.CompletionListener() {
+
+                        database.getReference().child("Users").child(senderId).child("lastMessage").child(receiverId).setValue(message).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
-                            public void onComplete(@Nullable DatabaseError error, @NonNull DatabaseReference ref) {
-                                database.getReference().child("Users").child(receiverId).updateChildren(lastMessage);
+                            public void onSuccess(Void unused) {
+                                database.getReference().child("Users").child(receiverId).child("lastMessage").child(senderId).setValue(message);
                             }
                         });
                         binding.enterMessageEditText.setText("");

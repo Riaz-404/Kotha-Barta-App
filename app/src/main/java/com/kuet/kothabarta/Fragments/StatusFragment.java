@@ -9,8 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.kuet.kothabarta.R;
+import com.kuet.kothabarta.databinding.FragmentStatusBinding;
 
 public class StatusFragment extends Fragment {
+    FragmentStatusBinding binding;
 
     public StatusFragment() {
 
@@ -19,6 +21,10 @@ public class StatusFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_status, container, false);
+        binding = FragmentStatusBinding.inflate(getLayoutInflater(), container, false);
+
+
+
+        return binding.getRoot();
     }
 }

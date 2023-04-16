@@ -6,7 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class User {
-    String uid, userName, email, password, profileImage, status, lastMessage;
+    String uid, userName, email, password, profileImage, status;
+    HashMap<String, String> lastMessage;
 
     public User(){
 
@@ -25,7 +26,7 @@ public class User {
         this.password = password;
     }
 
-    public User(String uid, String userName, String email, String password, String profileImage, String status, String lastMessage) {
+    public User(String uid, String userName, String email, String password, String profileImage, String status, HashMap<String, String> lastMessage) {
         this.uid = uid;
         this.userName = userName;
         this.email = email;
@@ -69,11 +70,11 @@ public class User {
         this.status = status;
     }
 
-    public String getLastMessage() {
+    public HashMap<String, String> getLastMessage() {
         return lastMessage;
     }
 
-    public void setLastMessage(String lastMessage) {
+    public void setLastMessage(HashMap<String, String> lastMessage) {
         this.lastMessage = lastMessage;
     }
 
